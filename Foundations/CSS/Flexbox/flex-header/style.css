@@ -1,0 +1,23 @@
+.header {
+    font-family: monospace;
+    background-color:honeydew;
+}
+
+.logo {
+    color:tomato;
+    font-size: 48px;
+    background: white;
+    padding: 4px 32px;
+}
+
+ul {
+    list-style-type: none;
+    /* remove bullet format */
+}
+
+a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    text-decoration: none; /* remove link underline */
+}
