@@ -1,6 +1,10 @@
 .header {
     font-family: monospace;
-    background-color:honeydew;
+    background-color:papayawhip;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 .logo {
@@ -8,16 +12,22 @@
     font-size: 48px;
     background: white;
     padding: 4px 32px;
+    border-radius: 16px;
 }
 
 ul {
-    list-style-type: none;
     /* remove bullet format */
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 a {
     font-size: 22px;
     background: white;
+    border-radius: 12px;
     padding: 8px;
     text-decoration: none; /* remove link underline */
 }
