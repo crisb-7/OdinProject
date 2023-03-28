@@ -4,7 +4,7 @@
 let a = "10";
 let b = "2";
 let c = a**b;   // This DOES NOT work with + operator since there is string concatenation
-alert(c)
+// alert(c)
 
 // ----------- Not a number -------------
 
@@ -52,3 +52,40 @@ Octal - base 8.
 Binary - base 2.
 */
 
+// JS Numbers as Objects
+
+// Normally JavaScript numbers are primitive values created from literals
+let num = 123;
+
+// They can also be defined as objects. DO NOT do this unless you know what you're doing
+// Creating them as objects complicates matters and slows exectuion speed; also, comparison operators (== and ===) break down.
+let otherNum = new Number(123);
+
+// === is strict equality comparison operator. !== is strict inequality
+
+// ------------ Rounding Numbers -------------
+
+let uglyDecimal = 13.5735345;
+let roundedNumber = uglyDecimal.toFixed(2);
+// alert(roundedNumber);
+
+// Convert String to Number
+let stringToNumber = "27";
+stringToNumber = Number(stringToNumber) + 3;
+alert(stringToNumber);
+
+
+/*
+-------------- Unary, Binary, Operand ---------------
+
+- Operand: what operators are applied to (ex. in 5*3 there are 2 operands, the 5 and the 3)
+- Unary operator: an operator that has only one operand.
+- Binary operator: yep, you guessed it; an operator that has two operands.
+
+*/
+
+let oneOperand = 1;
+oneOperand = -oneOperand // negation reverses the sign of a number, unary operator
+
+let firstOperand = 1, secondOperand = 3;
+console.log(firstOperand - secondOperand); // Binary operator, it has two operands.
