@@ -27,3 +27,20 @@ if (condition) {
 } else {
     console.log("Lol xd");
 }
+
+// Switch statements
+
+switch (expression) {
+    case "Sunny":
+      console.log("run this code");
+      break;
+  
+    case "Rainy":
+      console.log("run this code instead");
+      break;
+  
+    // include as many cases as you like
+  
+    default:
+      console.log("actually, just run this code");
+  }
